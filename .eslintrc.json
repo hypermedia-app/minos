@@ -4,7 +4,8 @@
     "project": "./tsconfig.json"
   },
   "rules": {
-    "no-undef": "off"
+    "no-undef": "off",
+    "import/no-extraneous-dependencies": "warn"
   },
   "overrides": [{
     "files": ["*.test.ts"],
